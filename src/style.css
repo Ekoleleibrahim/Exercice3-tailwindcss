@@ -1,0 +1,19 @@
+@tailwind base;
+h1{
+    @apply text-2xl;
+}
+h2{
+    @apply text-xl
+}
+img{
+    object-fit: cover;
+}
+@tailwind components;
+.card{
+    @apply shadow-sm shadow-black;
+}
+
+.button{
+    @apply block bg-slate-500 text-white px-8 py-2 hover:bg-slate-600 hover:text-black;
+}
+@tailwind utilities;
